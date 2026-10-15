@@ -33,16 +33,24 @@
 
 .container--1 {
   /* ALAP */
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  grid-template-rows: 300px 200px;
   font-family: sans-serif;
   background-color: #ddd;
   font-size: 40px;
   margin: 40px;
+  column-gap: 30px;
+  row-gap: 60px;
+  
 
   /* CSS GRID */
 }
 
 .container--2 {
+
   /* ALAP */
+  display: none;
   font-family: sans-serif;
   background-color: black;
   font-size: 40px;
