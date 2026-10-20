@@ -21,6 +21,7 @@
 
 .el--6 {
   background-color: steelblue;
+
 }
 
 .el--7 {
@@ -69,7 +70,7 @@
   font-size: 40px;
   margin: 100px;
 
-  width: 1000px;
+  width: 700px;
   height: 600px;
 
   /* CSS GRID */
@@ -77,6 +78,14 @@
   grid-template-rows: 250px 100px;
   gap: 50px;
 
-  justify-content:space-between;
-  align-content:end;
+  justify-content:center;
+  align-content:center;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.el--6 {
+  align-self: end;
+  justify-self: end;
 }
