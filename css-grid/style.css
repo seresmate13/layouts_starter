@@ -33,7 +33,7 @@
 
 .container--1 {
   /* ALAP */
-  display: grid;
+  display: none;
   height: 600px;
   grid-template-columns: repeat(3,1fr) auto;
   grid-template-rows: 1fr 1fr;
@@ -44,16 +44,26 @@
   column-gap: 30px;
   row-gap: 60px;
   font-size: 40px;
-  margin: ;
+  margin:40px ;
   
 
   /* CSS GRID */
 }
 
-.container--2 {
 
+
+ /* .el--8{
+  grid-column: 2 ;
+  grid-row: 1;
+}  */
+/* .el--1 {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+ } */
+
+.container--2 {
   /* ALAP */
-  display: none;
+  display: grid;
   font-family: sans-serif;
   background-color: black;
   font-size: 40px;
@@ -63,4 +73,10 @@
   height: 600px;
 
   /* CSS GRID */
+  grid-template-columns: 125px 200px 125px;
+  grid-template-rows: 250px 100px;
+  gap: 50px;
+
+  justify-content:space-between;
+  align-content:end;
 }
